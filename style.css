@@ -47,11 +47,15 @@ section .jumbotron {
   background-color: #e2edff;
 }
 .card-img-top {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 200px;
 }
 section {
   padding-top: 5rem;
+}
+
+.row p span {
+  font-weight: bold;
 }
 
 /* testimonial */
@@ -87,4 +91,8 @@ section {
 }
 .testimonial figure figcaption {
   text-align: center;
+}
+.card svg {
+  width: 50px;
+  height: 50px;
 }
