@@ -34,11 +34,14 @@ section .jumbotron {
   background-color: #e2edff;
 }
 .jumbotron img {
-  width: 80%;
-  height: 300px;
+  width: 100%;
+  height: 200px;
   border-radius: 12px;
+  background-image: url("img/IMG_20161110_100805.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 50%;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -46,10 +49,7 @@ section .jumbotron {
 #Galery {
   background-color: #e2edff;
 }
-.card-img-top {
-  width: 350px;
-  height: 200px;
-}
+
 section {
   padding-top: 5rem;
 }
