@@ -50,6 +50,15 @@ section .jumbotron {
   background-color: #e2edff;
 }
 
+.card img:hover {
+  filter: drop-shadow(-5px 5px 5px black);
+}
+.card img:active {
+  transition: 0.7s;
+  text-align: center;
+  transform: scale(1.5, 1.5);
+}
+
 section {
   padding-top: 5rem;
 }
